@@ -15,7 +15,7 @@ function OnGUI()
 //checks to see if the flashlight is on
 	flashlightOn = Flashlight.flashlightOn;
 	
-	GUI.DrawTexture(Rect(Screen.width - 500, 100, 512, 64), progressBarFull);
+	GUI.DrawTexture(Rect(Screen.width - 500, 75, 512, 40), progressBarFull);
 	
 	progressTwo = 512 * Mathf.Clamp01(progress);
 	
@@ -29,6 +29,11 @@ function OnGUI()
 	}	
 } 
 
+function Awake()
+{
+count = 0;
+}
+
 function Update()
 {
 if(flashlightOn)
@@ -40,10 +45,10 @@ if(flashlightOn)
 
 function batteryConsumptionStop()
 {
-GUI.DrawTexture(Rect(Screen.width - 500, 100, progressTwo, 64), progressBarEmpty);
+GUI.DrawTexture(Rect(Screen.width - 500, 75, progressTwo, 40), progressBarEmpty);
 }
 
 function batteryConsumptionStart()
 {
-GUI.DrawTexture(Rect(Screen.width - 500, 100,  progressTwo, 64), progressBarEmpty);
+GUI.DrawTexture(Rect(Screen.width - 500, 75,  progressTwo, 40), progressBarEmpty);
 }

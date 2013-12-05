@@ -46,9 +46,11 @@
   <ItemGroup>
      <Compile Include="Assets\Control Camera.js" />
      <Compile Include="Assets\Scripts\Battery + Nums\PickUpBattery.js" />
+     <Compile Include="Assets\Scripts\Campfire\Campfire.js" />
+     <Compile Include="Assets\Scripts\Campfire\ParMeterDeplte.js" />
      <Compile Include="Assets\Scripts\Flashlight and Meters\Flashlight.js" />
      <Compile Include="Assets\Scripts\Flashlight and Meters\flashlightMeter.js" />
-     <Compile Include="Assets\Scripts\Paranoia\Paranoia Meter.js" />
+     <Compile Include="Assets\Scripts\Paranoia\ParanoiaMeter.js" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>

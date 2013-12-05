@@ -44,8 +44,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script + Campfire\CampfireCollision.cs" />
      <Compile Include="Assets\Scripts\Battery + Nums\numbersHold.cs" />
      <Compile Include="Assets\Scripts\Door\DoorSound.cs" />
+     <Compile Include="Assets\Scripts\Fence\MakeFenceScript.cs" />
      <Compile Include="Assets\Scripts\Flashlight\Flashlight.cs" />
      <Compile Include="Assets\Scripts\Keypad\MakeKeypad.cs" />
      <Compile Include="Assets\Scripts\Menu\Credits.cs" />
@@ -54,6 +56,8 @@
      <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
      <Compile Include="Assets\Scripts\WalkingSoundsScripts\WalkingSound.cs" />
      <Compile Include="Assets\Scripts\WalkingSoundsScripts\WalkingStop.cs" />
+     <Compile Include="Assets\Scripts\WinLose Scrpits\WinText.cs" />
+     <Compile Include="Assets\Scripts\WinLose Scrpits\lostText.cs" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
