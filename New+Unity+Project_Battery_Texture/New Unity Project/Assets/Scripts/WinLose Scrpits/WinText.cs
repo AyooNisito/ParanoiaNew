@@ -6,6 +6,7 @@ public class WinText : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+	Screen.showCursor = true; 
 	Win.text = "You Win";
 	}
 	

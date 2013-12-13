@@ -44,11 +44,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\PaperPickUpNoise.cs" />
      <Compile Include="Assets\Script + Campfire\CampfireCollision.cs" />
      <Compile Include="Assets\Scripts\Battery + Nums\numbersHold.cs" />
      <Compile Include="Assets\Scripts\Door\DoorSound.cs" />
      <Compile Include="Assets\Scripts\Fence\MakeFenceScript.cs" />
      <Compile Include="Assets\Scripts\Flashlight\Flashlight.cs" />
+     <Compile Include="Assets\Scripts\KeyScript\KeyPickUp.cs" />
      <Compile Include="Assets\Scripts\Keypad\MakeKeypad.cs" />
      <Compile Include="Assets\Scripts\Menu\Credits.cs" />
      <Compile Include="Assets\Scripts\Menu\Escape.cs" />

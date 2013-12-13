@@ -22,20 +22,20 @@ count = 0;
 
 function Update()
 {
-
-  if(count > 15000 && !soundPlay)
+Debug.Log(count);
+  if(count > 1500 && !soundPlay)
   {
   soundPlay = true;
   audio.PlayOneShot(heartBeat);
   }
   
-  if(soundPlay && count < 15000)
+  if(soundPlay && count < 1500)
   {
   soundPlay = false;
   audio.Stop();
   }
   
-  if(count > 20000)
+  if(count > 2000)
   {
  Application.LoadLevel("LoseScene");
   }
@@ -45,14 +45,14 @@ function Update()
 		if(!ParMeterDeplte.standingNearFire)
 			{
 			count++;
-			progress = count * 0.00005;
+			progress = count * 0.0005;
 			}
 		else
 			{
 			if(count > 0)
 				{
 					count -=1;
-					progress = count * 0.00005;
+					progress = count * 0.0005;
 				}
 			}
 	}
@@ -62,17 +62,15 @@ function Update()
 		if(!ParMeterDeplte.standingNearFire)
 		{
 			count +=3;
-			progress = count * 0.00005;
+			progress = count * 0.0005;
 		}
 		else
 		{
 			if(count > 0)
 			{
 				count -=3;
-				progress = count * 0.00005;
+				progress = count * 0.0005;
 			}
 		}
 	}
-   // Camera.main.fieldOfView += .1;
-	
 }

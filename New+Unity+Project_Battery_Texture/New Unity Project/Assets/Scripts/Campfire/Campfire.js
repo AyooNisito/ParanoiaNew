@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 
-static var  fireLit : boolean = false; 
+public static var  fireLit : boolean = false; 
 var innerFlame : GameObject;
 var outerFlame : GameObject;
 var fireLight : GameObject;
@@ -33,6 +33,7 @@ function OnTriggerStay(other : Collider)
 		fireLight.light.enabled = true;
 				
 		fireLit = true;
+		Destroy(GetComponent(Campfire));
 		
 		}	
 	}

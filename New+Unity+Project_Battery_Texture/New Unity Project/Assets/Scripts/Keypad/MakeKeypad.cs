@@ -228,8 +228,10 @@ public class MakeKeypad : MonoBehaviour {
 					combo = "";
 					if (tries == 0)
 					{
+						
 						updater = "ERR: KEYPAD LOCKED";
 						combo = "ERROR: KEYPAD LOCKED";
+						Application.LoadLevel("LoseScene");
 					}
 				}
 			}

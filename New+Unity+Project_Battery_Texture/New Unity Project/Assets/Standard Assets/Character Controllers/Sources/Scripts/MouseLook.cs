@@ -34,7 +34,7 @@ public class MouseLook : MonoBehaviour {
 
 	void Update ()
 	{
-	    if (Input.GetKeyDown (KeyCode.P) == true)
+	    if (Input.GetKeyDown (KeyCode.E) == true)
 		{
 			keypadUp = true;
 		}

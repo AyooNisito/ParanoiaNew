@@ -39,7 +39,7 @@ function Update()
 if(flashlightOn)
 {
 	count++;
-	progress = count * 0.0005;
+	progress = count * 0.00025;
 }
 }
 

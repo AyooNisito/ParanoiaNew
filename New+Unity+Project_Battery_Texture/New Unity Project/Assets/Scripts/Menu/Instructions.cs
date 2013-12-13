@@ -20,7 +20,7 @@ public class Instructions : MonoBehaviour {
 	{
 		instructions.text = "You are locked in a park and need the key in the shed to escape.\nFind all four numbers to find the combination to the shed. Open \nthe " +
 			"shed and take the key to win. Do not max your paranoia.  \nParanoia increases over time and increases " +
-			"faster in darkness.  \nFind and light campfires to reduce your paranoia. There are \nbatteries " +
+			"faster in darkness.  \nFind and light the campfire to reduce your paranoia. There are \nbatteries " +
 			"scattered around the map to refill your flashlight.";
 		
 		controls.text = "Move Keys: WASD \nFlashlight Toggle: F \nInteract: E \nJump: Space";
