@@ -6,6 +6,11 @@ var innerFlame : GameObject;
 var outerFlame : GameObject;
 var fireLight : GameObject;
 public var fireCrackle : AudioClip;
+
+function Awake()
+{
+fireLit = false; 
+}
 function Start () 
 {
 

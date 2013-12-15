@@ -23,19 +23,19 @@ count = 0;
 function Update()
 {
 //sound playes when the meter gets about 75% full
-  if(count > 1500 && !soundPlay)
+  if(count > 15000 && !soundPlay)
   {
   soundPlay = true;
   audio.PlayOneShot(heartBeat);
   }
   
-  if(soundPlay && count < 1500)
+  if(soundPlay && count < 15000)
   {
   soundPlay = false;
   audio.Stop();
   }
   //lose game when meters full
-  if(count > 2000)
+  if(count > 20000)
   {
  Application.LoadLevel("LoseScene");
   }
@@ -45,14 +45,14 @@ function Update()
 		if(!ParMeterDeplte.standingNearFire)
 			{
 			count++;
-			progress = count * 0.0005;
+			progress = count * 0.00005;
 			}
 		else
 			{
 			if(count > 0)
 				{
 					count -=1;
-					progress = count * 0.0005;
+					progress = count * 0.00005;
 				}
 			}
 	}
@@ -62,14 +62,14 @@ function Update()
 		if(!ParMeterDeplte.standingNearFire)
 		{
 			count +=3;
-			progress = count * 0.0005;
+			progress = count * 0.00005;
 		}
 		else
 		{
 			if(count > 0)
 			{
 				count -=3;
-				progress = count * 0.0005;
+				progress = count * 0.00005;
 			}
 		}
 	}
