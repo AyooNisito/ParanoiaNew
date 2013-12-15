@@ -14,7 +14,7 @@ function OnGUI()
 {
 //checks to see if the flashlight is on
 	flashlightOn = Flashlight.flashlightOn;
-	
+//draws the flashlight meter texture.
 	GUI.DrawTexture(Rect(Screen.width - 500, 75, 512, 40), progressBarFull);
 	
 	progressTwo = 512 * Mathf.Clamp01(progress);
@@ -28,7 +28,7 @@ function OnGUI()
 	batteryConsumptionStop();
 	}	
 } 
-
+// resets the counter upon starting a new game. 
 function Awake()
 {
 count = 0;
@@ -42,7 +42,7 @@ if(flashlightOn)
 	progress = count * 0.00025;
 }
 }
-
+//battery meter stops depleting. 
 function batteryConsumptionStop()
 {
 GUI.DrawTexture(Rect(Screen.width - 500, 75, progressTwo, 40), progressBarEmpty);

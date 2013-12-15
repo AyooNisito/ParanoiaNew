@@ -22,7 +22,7 @@ count = 0;
 
 function Update()
 {
-Debug.Log(count);
+//sound playes when the meter gets about 75% full
   if(count > 1500 && !soundPlay)
   {
   soundPlay = true;
@@ -34,7 +34,7 @@ Debug.Log(count);
   soundPlay = false;
   audio.Stop();
   }
-  
+  //lose game when meters full
   if(count > 2000)
   {
  Application.LoadLevel("LoseScene");

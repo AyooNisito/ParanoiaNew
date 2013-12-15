@@ -11,7 +11,7 @@ function Start () {
 function Update () {
 
 }
-
+// checks to see if you are standing near the campfire. 
 function OnTriggerStay(other:Collider)
 {
 if(Campfire.fireLit)

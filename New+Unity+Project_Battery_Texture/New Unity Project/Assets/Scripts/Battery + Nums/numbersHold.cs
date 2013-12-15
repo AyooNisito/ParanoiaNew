@@ -14,7 +14,7 @@ public class numbersHold : MonoBehaviour {
 	papers.Add(GameObject.Find("Paper2"));
 	papers.Add(GameObject.Find("Paper3"));	
 	}
-	
+	//When the player collides with the paper they hit 'e' to pick it up. 
 	void OnControllerColliderHit(ControllerColliderHit hit)
 	{
 		if(papers.Contains(hit.gameObject))
@@ -25,7 +25,7 @@ public class numbersHold : MonoBehaviour {
 			}	
 		}
 	}
-	
+	//when paper is picked up its number is revealed in the top left corner. 
 	void OnGUI()
 	{	
 	if(GameObject.Find("Paper") == null)

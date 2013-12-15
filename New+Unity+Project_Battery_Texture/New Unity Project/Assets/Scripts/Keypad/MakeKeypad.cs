@@ -8,15 +8,12 @@ public class MakeKeypad : MonoBehaviour {
 	private int halfScreenW;
 	private int GUIBoxWH;
 	private int blockSquare;
-	public bool keypadUp = false;
+	public static bool keypadUp = false;
 	public int tries = 3;
-	
-	
 	public string combo = "";
 	private string updater;
 	public int numberLimit = 4;
 	public static string correctCombo = "";
-	
 	public bool doorOpen = false;
 	
 	void Start()

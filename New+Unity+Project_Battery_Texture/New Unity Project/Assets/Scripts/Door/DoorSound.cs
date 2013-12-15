@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DoorSound : MonoBehaviour {
 	public AudioClip doorOpening;
-	
+	//moves the door and plays the door opening sound. 
 	 void OnTriggerStay(Collider other) 
 	{
 		if(Input.GetKeyDown("e"))

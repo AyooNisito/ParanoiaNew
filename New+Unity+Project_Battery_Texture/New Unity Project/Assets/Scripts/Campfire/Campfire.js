@@ -20,6 +20,7 @@ function OnTriggerStay(other : Collider)
 {
 		if(!fireLit)
 	{
+	//creates the particle effect of the flame. 
 		if(Input.GetKeyDown("e"))
 		{
 		innerFlame = GameObject.Find("InnerFlame");
