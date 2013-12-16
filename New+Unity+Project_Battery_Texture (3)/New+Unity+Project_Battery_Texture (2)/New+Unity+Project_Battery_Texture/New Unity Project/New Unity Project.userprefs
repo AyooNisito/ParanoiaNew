@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Campfire\ParMeterDeplte.js">
+    <Files>
+      <File FileName="Assets\RandomNoises.cs" Line="102" Column="43" />
+      <File FileName="Assets\monsterMoving.cs" Line="21" Column="27" />
+      <File FileName="Assets\Resources\Lightning.cs" Line="64" Column="44" />
+      <File FileName="Assets\Scripts\Paranoia\ParanoiaMeter.js" Line="20" Column="11" />
+      <File FileName="Assets\Scripts\Campfire\ParMeterDeplte.js" Line="8" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Joe\Downloads\New+Unity+Project_Battery_Texture (2)\New+Unity+Project_Battery_Texture\New Unity Project\Assets\Resources\Lightning.cs" line="51" />
+      <Breakpoint file="C:\Users\Joe\Downloads\New+Unity+Project_Battery_Texture (2)\New+Unity+Project_Battery_Texture\New Unity Project\Assets\RandomNoises.cs" line="85" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\RandomNoises.cs" line="87" offsetX="236" offsetY="1376" expression="player" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
